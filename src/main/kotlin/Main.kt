@@ -12,7 +12,7 @@ fun main() {
     pupil[-1]
     pupil.length
 
-    var var passwords="1234567T"
+     var passwords="1234567T"
     for (password in passwords){
         if(passwords.length <= 8 )if (passwords.length >=16){
             print("my $password is")
@@ -25,6 +25,11 @@ fun main() {
 
     }
 
+    var savings=Savings(2000)
+    savings.withdraw(2000)
+
+
+
 
 
     }
@@ -39,7 +44,7 @@ fun main() {
 
 
 
-}
+
 //Write and invoke one function that takes in a random string and returns the
 //following values: first character, last character, length of the string and
 //whether it begins with a vowel or not.
